@@ -167,16 +167,10 @@ module.exports = {
         'host', 'port', 'database', 'user', 'password', 'ssl',
 
         // Advanced Client Config:
-        'application_name', 'fallback_application_name',
+        'types', 'statement_timeout',
 
         // General Pool Config:
-        'max', 'min', 'refreshIdle', 'idleTimeoutMillis',
-
-        // Advanced Pool Config:
-        // These should only be used if you know what you are doing.
-        // https://github.com/coopernurse/node-pool#documentation
-        'name', 'create', 'destroy', 'reapIntervalMillis', 'returnToHead',
-        'priorityRange', 'validate', 'validateAsync', 'log'
+        'max', 'idleTimeoutMillis', 'connectionTimeoutMillis',
 
       ];
 
